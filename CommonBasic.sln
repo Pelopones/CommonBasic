@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonBasic", "CommonBasic\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{55FB3C18-259B-47E5-9EEA-9450F9FB2378}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExampleCode", "ExampleCode", "{F02BC2B3-158F-4B94-B782-FAA56FC601AD}"
+	ProjectSection(SolutionItems) = preProject
+		ExampleCode\C#.cs = ExampleCode\C#.cs
+		ExampleCode\Qt.cpp = ExampleCode\Qt.cpp
+		ExampleCode\SQL.sql = ExampleCode\SQL.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
